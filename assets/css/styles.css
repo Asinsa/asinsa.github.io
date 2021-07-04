@@ -1,0 +1,35 @@
+.text-primary {
+  color: #4CC9F0 !important;
+}
+
+a {
+  color: #4CC9F0;
+  text-decoration: underline;
+}
+
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 45px;
+  transition: background .3s ease-in-out;
+  color: #fff;
+  border: 2px solid #4CC9F0;
+  border-radius: 100% !important;
+  background: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: #4CC9F0;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .nav-link.active:hover {
+    color: #844edc;
+  }
+}
+
