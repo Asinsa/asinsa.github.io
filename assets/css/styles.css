@@ -100,3 +100,23 @@ a {
   font-size: 18px;
 }
 
+.text-muted {
+  color: #b9babb !important;
+}
+
+@media (min-width: 992px) {
+  #mainNav .nav-link:hover {
+    color: #844edc;
+  }
+}
+
+.text-primary:hover {
+  color: #844edc !important;
+}
+
+.btn-circle:focus, .btn-circle:hover {
+  color: #844edc;
+  outline: none;
+  background: rgb(132,78,220);
+}
+
